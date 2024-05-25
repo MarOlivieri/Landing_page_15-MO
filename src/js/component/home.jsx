@@ -2,16 +2,22 @@ import React from "react";
 import NavBar from "./NavBar.jsx";
 import Text from "./Text.jsx";
 import Card from "./Card.jsx";
-
+import Footer from "./Footer.jsx";
 
 const Home = () => {
 	return (
-		<div>
+		<div >
 			<NavBar />
 			<Text />
-		    <Card />
+			<div className="row">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
+			<Footer />
 		</div>
-		
+
 	);
 };
 
