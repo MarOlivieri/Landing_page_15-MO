@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       
       <div className="card">
-  <div class="card-header">
+  <div class="card-header text-center">
     Copyright © Your Website 2024
   </div>
 

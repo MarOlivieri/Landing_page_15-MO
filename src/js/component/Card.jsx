@@ -8,7 +8,7 @@ const Card = () => {
 
     <div className="col-xl-3">
 
-      <div className="card d-flex justify-content-center mb-5" style={{ width: "18rem" }}>
+      <div className="card d-flex justify-content-center mb-5 mt-4" style={{ width: "18rem" }}>
         <img src="https://picsum.photos/200" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title text-center">Card title</h5>
@@ -18,8 +18,8 @@ const Card = () => {
             sido el texto de relleno estándar de las industrias
             desde el año 1500, cuando un impresor (N. del T.
           </p>
-          <div className="container footer border-top" >
-              <a href="#" className="btn btn-primary mt-2 mx-auto ms-6">
+          <div className="container footer border-top align-items-center" >
+              <a href="#" className="btn btn-primary mt-3 center-block">
                 Find Out More!
               </a>
             
