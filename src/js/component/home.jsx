@@ -9,7 +9,7 @@ const Home = () => {
 		<div >
 			<NavBar />
 			<Text />
-			<div className="row">
+			<div className="row align-center">
 				<Card />
 				<Card />
 				<Card />

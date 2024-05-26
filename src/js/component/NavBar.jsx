@@ -1,7 +1,7 @@
 import React from "react";
 
 const NavBar = () => { return (
-<nav className="navbar navbar-expand-lg bg-body-tertiary">
+<nav className="navbar navbar-expand-lg bg-secondary mb-20">
   <div className="container-fluid ">
     <a className="navbar-brand" href="#">Navbar</a>
     <button
@@ -15,8 +15,8 @@ const NavBar = () => { return (
     >
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse ml-20" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
+    <div className="collapse navbar-collapse btn-secondary" id="navbarNavAltMarkup">
+      <div className="navbar-nav ms-auto">
         <a className="nav-link active" aria-current="page" href="#">Home</a>
         <a className="nav-link" href="#">About</a>
         <a className="nav-link" href="#">Services</a>
