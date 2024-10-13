@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = () => {
+const Card = ({picURL}) => {
   return (
 
 
@@ -9,7 +9,7 @@ const Card = () => {
     <div className="col-xl-3">
 
       <div className="card d-flex justify-content-center mb-5 mt-4 mx-auto" style={{ width: "18rem" }}>
-        <img src="https://picsum.photos/200" className="card-img-top" alt="..." />
+        <img src={picURL} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title text-center">Card title</h5>
           <p className="card-text text-center">

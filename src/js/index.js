@@ -1,12 +1,27 @@
-//import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// include your styles into the webpack bundle
+// Include your styles
 import "../styles/index.css";
 
-//import your own components
+// Import components
 import Home from "./component/home.jsx";
+import About from "./component/About.jsx"; // Nuevo componente About
+import Services from "./component/Services.jsx"; // Nuevo componente About
 
-//render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+// Define la aplicación principal con rutas
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} /> {/* Ruta para la nueva página About */}
+        <Route path="/Services" element={<Services />} /> {/* Ruta para la nueva página About */}
+      </Routes>
+    </Router>
+  );
+};
+
+// Render the App
+ReactDOM.render(<App />, document.querySelector("#app"));
